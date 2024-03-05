@@ -11,7 +11,7 @@ To run Docker containers with NVIDIA GPU support, you can optionally install the
 
 First, clone this repository and go into the top-level folder:
 ```bash
-git git clone --recurse-submodules -j8 https://github.com/abhijaysingh/enpm690_hw3.git 
+git clone --recurse-submodules -j8 https://github.com/abhijaysingh/enpm690_hw3.git 
 cd enpm690_hw3
 cp -r obstacle-avoidance-turtlebot/ docker/
 ```
@@ -28,7 +28,7 @@ First, make a Catkin workspace and clone this repository:
 ```bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
-git git clone --recurse-submodules -j8 https://github.com/abhijaysingh/enpm690_hw3.git 
+git clone --recurse-submodules -j8 https://github.com/abhijaysingh/enpm690_hw3.git 
 ```
 
 Then, build the package:
